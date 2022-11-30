@@ -1,16 +1,57 @@
 import Image from 'next/image'
-import styles from '../styles/Header.module.scss'
-import { Link } from 'next/link'
+import styles from '../components/Header.module.scss'
+import Link from 'next/link'
+import React, {useState} from "react"
 
 export function Header() {
+    const [openMenu, setOpenMenu] = useState(false);
+    const menuFunction = () => {
+      setOpenMenu(!openMenu);
+    }
+
   return (
- <header className={styles.header}>
+<div>
+<header className={styles.header}>
+    <div className={styles.headerInline}>
     <h1>
-        <Link href="/">
+        <Link href="/index">
              <Image src="/Logo_gold.png" alt="Logo" width={149} height={64} />
         </Link>
     </h1>
+    <div className={styles.humburger} onClick={() => menuFunction()}>
+        <div className={openMenu ? styles.open : undefined}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          </div>
+    </div>
  </header>
+
+ <div className={`${styles.menu} ${openMenu ? styles.open : undefined}`}>
+    <ul>
+    <div className={styles.close} onClick={() => menuFunction()}>
+    <span></span>
+    <span></span>
+    </div>
+    <li>
+    <Link href="/">
+        <h2 className={styles.one}>ONE</h2>
+    </Link>
+    </li>
+    <li>
+    <Link href="/">
+        <h2 className={styles.three}>THREE</h2>
+    </Link>
+    </li>
+    <li>
+    <Link href="/">
+        <h2 className={styles.contact}>CONTACT</h2>
+    </Link>
+    </li>
+    </ul>
+ </div>
+</div>
   )
 }
 

@@ -34,6 +34,14 @@ export function Header() {
     <span></span>
     <span></span>
     </div>
+    <div className={styles.menuLogo}>
+        <Image src="/white_13.png" alt="menu13" width={150} height={100} />
+        <Link href="/index">
+             <Image src="/white_logo.png" alt="menuLogo" width={149} height={64} />
+        </Link>
+    </div>
+
+
     <li>
     <Link href="/">
         <h2 className={styles.one}>ONE</h2>
@@ -47,6 +55,11 @@ export function Header() {
     <li>
     <Link href="/">
         <h2 className={styles.contact}>CONTACT</h2>
+    </Link>
+    </li>
+    <li>
+    <Link href="/">
+        <h2 className={styles.social}>Instagram   /   Twitter</h2>
     </Link>
     </li>
     </ul>

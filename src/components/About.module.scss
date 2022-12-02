@@ -1,0 +1,23 @@
+.line {
+    display: block;
+    background-color: #8D7147;
+    transform: rotate(-200deg);
+    width: 600px;
+    height: 1px;
+    margin: 120px 0;
+}
+
+.containeer {
+    margin: 80px auto;
+    text-align: center;
+    padding: 24px;
+    font-family: bodoni72;
+    color: #8D7147;
+
+    h2 {
+        font-size: 32px;
+    }
+    p {
+        font-size: 20px;
+    }
+}

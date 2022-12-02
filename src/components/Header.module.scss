@@ -60,7 +60,7 @@
     text-align: center;
     color: #F3F0EB;
     font-family: Bodoni72;
-    margin: 100px auto;
+    margin: 56px auto;
   }
 }
 .one {
@@ -73,18 +73,38 @@
   margin-right: 8px;
 }
 .contact {
+  // border-bottom: solid 2px #8D7147;
   font-size: 28px;
     margin-right: 16px;
     padding: 1rem;
 }
+.social {
+  font-size: 18px;
+  letter-spacing: 0.3rem;
+  font-weight: lighter;
+  margin-right: 8px;
+}
+.menuLogo {
+  margin: 56px auto;
+  display: flex;
+  flex-flow: column;
+   justify-content: space-around;
+    align-items: center;
+  padding-right: 1rem;
+  img {
+    margin: 0 0 16px 0;
+  }
+}
 
 .close {
+  cursor: pointer;
   position: absolute;
   top: 56px;
   right: 12rem;
+  width: 120px;
+  height: 60px;
   span {
     display: block;
-    cursor: pointer;
     background-color: #F3F0EB;
     width: 120px;
     height: 1px;

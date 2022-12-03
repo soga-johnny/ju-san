@@ -1,0 +1,52 @@
+.containeer {
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 40px 180px;
+    font-family: Bodoni72;
+    color: #8D7147;
+    background-color: #D9E0E1;
+
+    p {
+        font-size: 20px;
+        font-weight: lighter;
+        margin: 8px 0 0 8px;
+        letter-spacing: 0.1rem;
+    }
+    img {
+        margin: 210px 0 120PX 0;
+    }
+}
+
+.caption {
+    width: 30%;
+}
+
+.line {
+    display: block;
+    background-color: #8D7147;
+    transform: rotate(-200deg);
+    width: 400px;
+    height: 1px;
+    margin: 150px 0;
+}
+.three {
+    font-weight: lighter;
+    font-size: 120px;
+  margin-left: 16px;
+}
+.jap {
+    font-family: sans-serif;
+    font-weight: normal;
+    margin: 40px 0 220px 8px;
+}
+
+.collection {
+    text-align: right;
+    border-bottom: solid 1px #8D7147;
+    font-weight: lighter;
+    font-size: 32px;
+    margin-right: 16px;
+    margin-bottom: 40px;
+    letter-spacing: 0.2rem;
+}

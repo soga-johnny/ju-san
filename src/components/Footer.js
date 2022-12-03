@@ -26,7 +26,7 @@ export function Footer() {
     
             </ul>
              <h2 className={styles.footerLogo}>
-        <Link href="/index">
+        <Link href="/">
              <Image src="/gold_13.png" alt="Logo" width={200} height={150} />
         </Link>
              </h2>

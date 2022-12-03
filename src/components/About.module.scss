@@ -8,7 +8,7 @@
 }
 
 .containeer {
-    margin: 80px auto;
+    margin: 80px auto 0 auto;
     text-align: center;
     padding: 24px;
     font-family: bodoni72;
@@ -19,5 +19,23 @@
     }
     p {
         font-size: 20px;
+        margin: 8px 0;
     }
 }
+.copy {
+    font-weight: lighter;
+    margin: 200px 0 40px 0;
+}
+.jap {
+    font-family: sans-serif;
+    font-weight: normal;
+    margin: 56px 0;
+}
+.title {
+    border-bottom: solid 1px #8D7147;
+    font-weight: lighter;
+    margin: 320px 0 0 0;
+    letter-spacing: 0.1rem;
+    line-height: 2;
+}
+

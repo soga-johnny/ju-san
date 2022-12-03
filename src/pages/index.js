@@ -3,6 +3,8 @@ import styles from '../styles/Home.module.scss'
 import { Header } from '../components/Header'
 import { Fv } from '../components/Fv'
 import { About } from '../components/About'
+import { One } from '../components/One'
+import { Three } from '../components/Three'
 import { Footer } from '../components/Footer'
 
 export default function Home() {
@@ -20,6 +22,8 @@ export default function Home() {
         
         <Fv />
         <About />
+        <One />
+        <Three />
       </main>
 
       <Footer />

@@ -14,7 +14,7 @@ export function Header() {
 <header className={styles.header}>
     <div className={styles.headerInline}>
     <h1>
-        <Link href="/index">
+        <Link href="/">
              <Image src="/Logo_gold.png" alt="Logo" width={149} height={64} />
         </Link>
     </h1>
@@ -43,12 +43,12 @@ export function Header() {
 
 
     <li>
-    <Link href="/">
+    <Link href="/OneContent">
         <h2 className={styles.one}>ONE</h2>
     </Link>
     </li>
     <li>
-    <Link href="/">
+    <Link href="/ThreeContent">
         <h2 className={styles.three}>THREE</h2>
     </Link>
     </li>

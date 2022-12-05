@@ -31,7 +31,7 @@ const Box = () => {
         <div className={styles.fv}>
       <Canvas dpr={2}>
         <color attach="background" args={['#F3F0EB']} />
-        <ambientLight intensity={0.5} />
+        <ambientLight intensity={0.9} />
         <directionalLight intensity={0.5} position={[-10, 10, 10]} />
         <Box />
       </Canvas>

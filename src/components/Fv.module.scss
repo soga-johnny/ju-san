@@ -1,3 +1,16 @@
-.fv img {
+.fv {
     margin: 220px 0 80px 0;
+    width: 700px;
+    animation-name: animation01;
+    animation-duration: 3s;
+}
+@keyframes animation01 {
+    0%{
+        opacity: 0;
+        transform: translateY(10%);
+       }
+       100%{
+        opacity: 1;
+        transform: translateY(0);
+       }
 }

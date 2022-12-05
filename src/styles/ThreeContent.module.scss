@@ -40,14 +40,16 @@
 }
 .mainVisual img {
     animation-name: animation01;
-    animation-duration: 4s;
+    animation-duration: 2s;
 }
 @keyframes animation01 {
     0%{
         opacity: 0;
+        transform: translateY(10%);
        }
        100%{
         opacity: 1;
+        transform: translateY(0);
        }
 }
 

@@ -11,7 +11,6 @@ export function One() {
             <span className={styles.line}></span>
             <p>A new you in a door. </p>
             <p> Desire to uncover your unknown enchantment.</p>
-            <p className={styles.test}>aaaaaaaaaaaaaaaaaa</p>
             <h3 className={styles.jap}>私のための新しい扉。</h3>
                 <Link href="/OneContent">
                     <h2 className={styles.collection}>COLLECTION</h2>

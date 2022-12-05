@@ -6,7 +6,7 @@ export function Three() {
 
     return (
         <div className={styles.containeer}>
-            <Image src="/three_head.png" alt="three_head" width={549} height={665} />
+            <Image src="/three_head.png" alt="three_head" width={648} height={785} />
 
         <div className={styles.caption}>
             <h2 className={styles.three}>THREE</h2>
@@ -22,3 +22,6 @@ export function Three() {
         </div>   
     )
 }
+
+
+

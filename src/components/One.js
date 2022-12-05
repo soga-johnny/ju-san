@@ -18,7 +18,7 @@ export function One() {
          </div>
 
          <div className={styles.img}>
-             <Image src="/one_head.png" alt="one_head" width={549} height={665} />
+             <Image src="/one_head.png" alt="one_head" width={648} height={785} />
          </div>
 
         </div>   

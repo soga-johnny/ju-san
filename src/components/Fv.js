@@ -2,7 +2,7 @@
 import styles from '../components/Fv.module.scss'
 import { useState, useRef } from "react";
 import { Canvas, useFrame } from '@react-three/fiber';
-// import { OrbitControls } from '@react-three/drei';
+import { OrbitControls } from '@react-three/drei';
 
 
 const Box = () => {
@@ -30,15 +30,17 @@ const Box = () => {
     return (
         <div className={styles.fv}>
       <Canvas dpr={2}>
-        <color attach="background" args={['#F3F0EB']} />
+        <color attach="background" args={[0xF3F0EB]} />
         <ambientLight intensity={0.9} />
         <directionalLight intensity={0.5} position={[-10, 10, 10]} />
         <Box />
+        <OrbitControls />
       </Canvas>
 
-      {/* <OrbitControls /> */}
+      
 
       </div>
     );
   }
+  
   

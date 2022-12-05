@@ -8,6 +8,7 @@ import { Three } from '../components/Three'
 import { Footer } from '../components/Footer'
 
 export default function Home() {
+
   return (
     <div className={styles.container}>
       <Head>

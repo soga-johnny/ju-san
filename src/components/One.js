@@ -11,13 +11,16 @@ export function One() {
             <span className={styles.line}></span>
             <p>A new you in a door. </p>
             <p> Desire to uncover your unknown enchantment.</p>
+            <p className={styles.test}>aaaaaaaaaaaaaaaaaa</p>
             <h3 className={styles.jap}>私のための新しい扉。</h3>
                 <Link href="/OneContent">
                     <h2 className={styles.collection}>COLLECTION</h2>
                   </Link>
          </div>
 
+         <div className={styles.img}>
              <Image src="/one_head.png" alt="one_head" width={549} height={665} />
+         </div>
 
         </div>   
     )

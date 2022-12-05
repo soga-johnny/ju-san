@@ -122,3 +122,22 @@
   }
 
 }
+
+@media (max-width: 600px) {
+
+  .headerInline {
+    width: 90%;
+
+    h1 {
+      width: 50%;
+    }
+  }
+
+  .humburger {
+    width: 80px;
+  }
+  .menu  {
+    right: -450px;
+  width: 100%;
+  }
+}

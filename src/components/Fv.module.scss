@@ -1,13 +1,13 @@
 .fv {
-    margin: 220px 0 80px 0;
-    width: 700px;
+    margin: 40px 0 -40px 0;
+    // width: 700px;
     animation-name: animation01;
-    animation-duration: 3s;
+    animation-duration: 4s;
 }
 @keyframes animation01 {
     0%{
         opacity: 0;
-        transform: translateY(10%);
+        transform: translateY(5%);
        }
        100%{
         opacity: 1;
